@@ -7,6 +7,17 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+   slideOpts = {
+    slidesPerView: 3,
+    spaceBetween:0
+    
+  }
+
+  constructor() {
+
+    
+  }
+
+  
 
 }
